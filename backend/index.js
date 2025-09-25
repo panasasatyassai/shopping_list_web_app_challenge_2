@@ -1,6 +1,6 @@
-const express = require("express");
-const cors = require("cors");
-const { v4: uuidv4 } = require("uuid");  
+const express = require("express")
+const cors = require("cors")
+const { v4: uuidv4 } = require("uuid")
 
 const app = express();
 app.use(cors());
@@ -78,4 +78,4 @@ app.delete("/api/items/:id", (req, res) => {
 });
  
 const PORT = 5000;
-app.listen(PORT, () => console.log(`✅ Backend running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
