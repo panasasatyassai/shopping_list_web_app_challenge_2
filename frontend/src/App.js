@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>🛒 Shopping List</h1>
+      <h1>Shopping List</h1>
 
 
       <form onSubmit={handleSubmit}>
